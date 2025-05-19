@@ -1,5 +1,3 @@
 # HelloWorld
-My very first Git
-kkkkk
-xxxxx
-ttttt
+My very first Git!
+This is 6 years ago and I come back today!
