@@ -12,19 +12,19 @@
     }
 
     :root {
-      --color-bg-start: #0f0c29;
-      --color-bg-mid: #302b63;
-      --color-bg-end: #24243e;
-      --color-glass-bg: rgba(255, 255, 255, 0.07);
-      --color-glass-border: rgba(255, 255, 255, 0.15);
-      --color-accent: #7c5cbf;
-      --color-accent-hover: #9b7de8;
-      --color-accent-glow: rgba(124, 92, 191, 0.5);
-      --color-text-primary: #f0eeff;
-      --color-text-muted: rgba(240, 238, 255, 0.5);
-      --color-input-bg: rgba(255, 255, 255, 0.06);
-      --color-input-border: rgba(255, 255, 255, 0.12);
-      --color-input-focus: rgba(124, 92, 191, 0.6);
+      --color-bg-start: #000000;
+      --color-bg-mid: #001a0d;
+      --color-bg-end: #000d07;
+      --color-glass-bg: rgba(0, 255, 136, 0.04);
+      --color-glass-border: rgba(0, 255, 136, 0.15);
+      --color-accent: #00ff88;
+      --color-accent-hover: #66ffb2;
+      --color-accent-glow: rgba(0, 255, 136, 0.4);
+      --color-text-primary: #e0fff2;
+      --color-text-muted: rgba(224, 255, 242, 0.45);
+      --color-input-bg: rgba(0, 255, 136, 0.05);
+      --color-input-border: rgba(0, 255, 136, 0.12);
+      --color-input-focus: rgba(0, 255, 136, 0.25);
       --color-error: #ff6b6b;
       --radius-card: 20px;
       --radius-input: 10px;
@@ -55,7 +55,7 @@
     body::before {
       width: 400px;
       height: 400px;
-      background: #7c5cbf;
+      background: #00ff88;
       top: -100px;
       left: -100px;
     }
@@ -63,7 +63,7 @@
     body::after {
       width: 350px;
       height: 350px;
-      background: #302b63;
+      background: #00cc66;
       bottom: -80px;
       right: -80px;
     }
@@ -93,7 +93,7 @@
       justify-content: center;
       width: 56px;
       height: 56px;
-      background: linear-gradient(135deg, var(--color-accent), #4e3a8a);
+      background: linear-gradient(135deg, var(--color-accent), #00994d);
       border-radius: 16px;
       margin-bottom: 20px;
       box-shadow: 0 4px 20px var(--color-accent-glow);
@@ -102,7 +102,7 @@
     .card-icon svg {
       width: 26px;
       height: 26px;
-      fill: #fff;
+      fill: #001a0d;
     }
 
     .card-title {
@@ -278,7 +278,7 @@
     .btn-login {
       width: 100%;
       padding: 14px;
-      background: linear-gradient(135deg, var(--color-accent), #4e3a8a);
+      background: linear-gradient(135deg, var(--color-accent), #00994d);
       border: none;
       border-radius: var(--radius-button);
       color: #fff;
