@@ -1,0 +1,3 @@
+(i)  To extract geometric and photometric features from digital rice grain images as quantitative rice quality indicators.
+(ii)  To conduct the comparative analysis of rice quality indicators based on rice grades.
+(iii)  To analyze the effect of rice quality indicators on rice grades.
